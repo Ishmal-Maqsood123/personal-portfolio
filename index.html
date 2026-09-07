@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishmal Maqsood — Website Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="glow"></div>
+
+    <div class="side-social left">
+      <a
+        href="https://github.com/Ishmal-Maqsood123"
+        target="_blank"
+        rel="noopener"
+        aria-label="GitHub"
+        title="GitHub"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        >
+          <path
+            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"
+          />
+        </svg>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ishmal-maqsood-3a7834281"
+        target="_blank"
+        rel="noopener"
+        aria-label="LinkedIn"
+        title="LinkedIn"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        >
+          <path
+            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+          />
+          <rect x="2" y="9" width="4" height="12" />
+          <circle cx="4" cy="4" r="2" />
+        </svg>
+      </a>
+    </div>
+    <div class="side-social right">
+      <a href="mailto:ishmalmaqsood9104@gmail.com"
+        >ishmalmaqsood9104@gmail.com</a
+      >
+    </div>
+    <!-- nav -->
+    <header>
+      <nav>
+        <a href="#top" class="logo mono">I</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="resume-btn">Resume</a>
+        <button class="burger" id="burger">☰</button>
+      </nav>
+    </header>
+
+    <main class="wrap" id="top">
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Hi, my name is</p>
+            <h1 class="name">Ishmal Maqsood.</h1>
+            <h1 class="tagline">I build things for the web.</h1>
+            <p class="desc">
+              I'm a software engineer specializing in building
+              <strong>fast, accessible</strong> web interfaces. Currently
+              focused on crafting clean, human-centered products — and writing
+              code I'd be happy to read again in a year.
+            </p>
+            <div class="hero-ctas">
+              <a href="#work" class="btn-primary">View My Work</a>
+              <a href="#contact" class="btn-ghost">Get In Touch →</a>
+            </div>
+          </div>
+          <div class="terminal" data-reveal>
+            <div class="terminal-bar">
+              <span class="dot r"></span><span class="dot y"></span
+              ><span class="dot g"></span>
+              <span class="terminal-title">~/ishmal maqsood/about-me.js</span>
+            </div>
+            <div class="terminal-body">
+              <div>
+                <span class="ln">1</span><span class="kw">const</span>
+                <span class="pl">developer</span> = {
+              </div>
+              <div>
+                <span class="ln">2</span>&nbsp;&nbsp;name:
+                <span class="str">'Ishmal Maqsood'</span>,
+              </div>
+              <div>
+                <span class="ln">3</span>&nbsp;&nbsp;role:
+                <span class="str">'Frontend Engineer'</span>,
+              </div>
+              <div>
+                <span class="ln">4</span>&nbsp;&nbsp;stack: [<span class="str"
+                  >'React'</span
+                >, <span class="str">'Node'</span>,
+                <span class="str">'TS'</span>],
+              </div>
+              <div>
+                <span class="ln">5</span>&nbsp;&nbsp;<span class="fn"
+                  >loves</span
+                >: <span class="kw">function</span>() {
+              </div>
+              <div>
+                <span class="ln">6</span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  class="kw"
+                  >return</span
+                >
+                <span id="typed-line"></span><span class="cursor"></span>
+              </div>
+              <div><span class="ln">7</span>&nbsp;&nbsp;}</div>
+              <div><span class="ln">8</span>};</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About Section-->
+      <section id="about" data-reveal>
+        <div class="section-head">
+          <span class="section-num mono">01.</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              Hello! I'm Ishmal, a developer who enjoys turning ideas into
+              clean, usable interfaces. My interest in the web started back when
+              I tweaked my first WordPress theme just to see what would break —
+              turns out, everything did, and I loved figuring out why.
+            </p>
+            <p>
+              Fast-forward, and I've had the chance to work across small
+              startups and freelance projects, building everything from
+              marketing sites to full-blown web apps.
+            </p>
+            <p>Here are a few technologies I've been working with recently:</p>
+            <ul class="skills-list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Express.js</li>
+              <li>Tailwind CSS</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </div>
+          <div class="about-photo">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- Skill Section -->
+      <section id="skills" data-reveal>
+        <div class="section-head">
+          <span class="section-num mono">02.</span>
+          <h2>My Skills</h2>
+        </div>
+        <div class="exp-shell">
+          <div class="exp-tabs" id="expTabs">
+            <button class="active" data-tab="0">Languages</button>
+            <button data-tab="1">Frameworks</button>
+            <button data-tab="2">Tools</button>
+          </div>
+          <div class="exp-content">
+            <div class="exp-panel active" data-panel="0">
+              <h3>Languages <span>I write comfortably</span></h3>
+              <p class="exp-date">Core building blocks</p>
+              <ul>
+                <li>
+                  JavaScript (ES6) — comfortable with async/await, closures,
+                  modern array methods.
+                </li>
+                <li>
+                  Node &amp; Express.js — learning backend development and
+                  working with APIs.
+                </li>
+                <li>
+                  HTML5 &amp; CSS3 — semantic markup, Flexbox, Grid, responsive
+                  design.
+                </li>
+                <li>
+                  Tailwind CSS — creating responsive and modern user interfaces.
+                </li>
+              </ul>
+            </div>
+            <div class="exp-panel" data-panel="1">
+              <h3>Frameworks &amp; Libraries <span>I've built with</span></h3>
+              <p class="exp-date">What I reach for on projects</p>
+              <ul>
+                <li>
+                  React.js — building component-based UIs, hooks, state
+                  management.
+                </li>
+                <li>
+                  Tailwind CSS — rapid, utility-first styling for responsive
+                  layouts.
+                </li>
+                <li>Node.js &amp; Express — basic REST API development.</li>
+                <li>
+                  Next.js — currently learning for server-rendered React apps.
+                </li>
+              </ul>
+            </div>
+            <div class="exp-panel" data-panel="2">
+              <h3>Tools &amp; Platforms <span>I use daily</span></h3>
+              <p class="exp-date">My everyday workflow</p>
+              <ul>
+                <li>
+                  Git &amp; GitHub — version control, branching, pull requests.
+                </li>
+                <li>
+                  VS Code — my primary editor, customized with extensions.
+                </li>
+                <li>Figma — reading designs and translating them into code.</li>
+                <li>Postman — testing and debugging APIs.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" data-reveal>
+        <div class="section-head">
+          <span class="section-num mono">03.</span>
+          <h2>Things I've Built</h2>
+        </div>
+
+        <div class="project">
+          <div class="project-top">
+            <div>
+              <h3>Ishmal Foods — Restaurant Website</h3>
+              <p>
+                A responsive restaurant website featuring a modern food menu,
+                services, customer information, and a contact form. Built with
+                HTML, CSS, and JavaScript.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <!-- GitHub Link -->
+              <a
+                href="https://github.com/Ishmal-Maqsood123/restaurant-website"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"
+                  />
+                </svg>
+              </a>
+
+              <!-- Live Website Link -->
+              <a
+                href="https://ishmal-maqsood123.github.io/restaurant-website/"
+                aria-label="Live site"
+                title="Live site"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <path d="M15 3h6v6" />
+                  <path d="M10 14 21 3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="tech-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-top">
+            <div>
+              <h3>Interactive Quiz App</h3>
+              <p>
+                An interactive quiz application with multiple-choice questions,
+                a countdown timer, progress tracking, instant answer feedback,
+                and a final score with percentage results. Built with HTML, CSS,
+                and JavaScript.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <!-- GitHub Link -->
+              <a
+                href="https://github.com/Ishmal-Maqsood123/quiz-app"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"
+                  />
+                </svg>
+              </a>
+
+              <!-- Live Website Link -->
+              <a
+                href="https://ishmal-maqsood123.github.io/quiz-app/"
+                aria-label="Live site"
+                title="Live site"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <path d="M15 3h6v6" />
+                  <path d="M10 14 21 3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="tech-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>DOM</span>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="contact" class="contact" data-reveal>
+        <span class="section-num mono">04. What's Next?</span>
+        <h2>Get In Touch</h2>
+        <p>
+          I'm currently open to new opportunities and freelance work. Whether
+          you have a question or just want to say hi, my inbox is always open.
+        </p>
+        <a href="#" class="prompt-btn" id="sayHelloBtn">Say Hello</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Designed &amp; Built by <a href="#top">© 2026 Ishmal Maqsood.</a> All
+        Rights Reserved.
+      </p>
+    </footer>
+    <!-- Contact Form -->
+<div class="contact-form-overlay" id="contactForm">
+  <div class="contact-form-box">
+    <button class="close-btn" id="closeForm">&times;</button>
+
+    <h2>Get In Touch</h2>
+    <p>Have a project in mind? Send me a message.</p>
+
+    <form id="contactFormElement">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      />
+
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your Message"
+        rows="5"
+        required
+      ></textarea>
+
+      <button type="submit" class="send-btn">
+        Send Message
+      </button>
+    </form>
+
+    <p id="formStatus"></p>
+  </div>
+</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
